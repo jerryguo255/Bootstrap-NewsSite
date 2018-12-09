@@ -1,0 +1,109 @@
+a:hover{
+  text-decoration: none;
+}
+
+
+img{
+  display: block;
+  max-width: 100%;
+}
+
+img, .side-bar .list-group-item , .sidebar-card{
+    border-radius: 5px;
+}
+
+.navbar-brand {
+  background-image: url(../img/logo.png);
+  width: 150px;
+  background-size: 70%;
+  background-repeat: no-repeat;
+  background-position: center center
+}
+
+.side-bar .list-group-item {
+  border: 0;
+  margin-bottom: 5px;
+}
+
+.side-bar .list-group-item.active {
+/* Combination of list-group-item and active under side-bar */
+ background-color: grey;
+}
+
+
+.news-list-item .title{
+  display: block;
+  font-size: 18px;
+  font-weight: bold;
+  color: grey;
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
+
+.news-list-item .info{
+  color: grey;
+}
+
+.news-list-item .info .avator{
+  display: inline-block;
+  height: 15px;
+  width: 15px;
+}
+
+.news-list-item .title:hover{
+  color:black;
+}
+
+.news-list-item{
+padding-top:15px;
+padding-bottom: 15px;
+
+border-bottom:1px solid #eee
+}
+
+.news-list-item:first-child{
+  padding-top:0px;
+  padding-bottom: 15px;
+}
+
+.sidebar-card{
+  background-color: #eee;
+  margin-top:15px;
+  padding: 10px 0;
+}
+
+ /* set the flag for certain element */
+.sidebar-card.flag{
+  padding: 20px 0;
+}
+
+.sidebar-card.flag .col-xs-5{
+  padding-left:10px;
+  padding-right:12px;
+}
+.sidebar-card.flag .col-xs-7{
+  padding:0px;
+  line-height:23px;
+}
+.sidebar-card .card-title{
+  font-size:16px;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.7);
+
+}
+
+.sidebar-card .card-title,
+.sidebar-card .card-body .list .item {
+padding:10px 15px;
+}
+.sidebar-card .card-body .list .item:hover{
+background-color: rgba(0, 0, 0, 0.1);
+}
+.card-body .list .item .title{
+padding-bottom: 7px;
+font-weight: bold;
+color: rgba(0, 0, 0, 0.7);
+}
+.card-body .list .item .desc{
+ color: #999;
+}
